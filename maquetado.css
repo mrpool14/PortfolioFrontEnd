@@ -1,0 +1,7 @@
+.principal{background-image: url(https://wallpaperaccess.com/full/44214.jpg);}
+.cabecera{background-color: lightgreen;height: 200px;width: 60%;text-align: center;padding-top:70px ;border-bottom: 5px dashed black;margin-left: 200px;border:1px solid orangered;font-style:italic;}
+.presentacion{background-color: lightgreen;height:500px;margin-left: 200px;height:500px;width:60%;;border:1px solid orangered;}
+.titulo-presentacion{text-shadow: 2px;text-decoration: underline;}
+.lateral{float:right;width:20%;background: lightblue;height: 700px;margin-right: 200px;}
+.clearfix{clear:both;}
+footer{background-color: white;width: 78.6%;margin:auto;text-align: center;}
