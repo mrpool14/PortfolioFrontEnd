@@ -1,1 +1,7 @@
-{"nombre":"messi","profesion":"el_mejor_del_mundo","rivales":"ninguno","copas_del_mundo":1}
+
+ {
+    "nombre":"messi",
+    "profesion":"el_mejor_del_mundo",
+    "rivales":"ninguno",
+    "copas_del_mundo":1
+} 
