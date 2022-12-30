@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServicioDePruebaService } from 'src/app/servicio-de-prueba.service';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  constructor(private miservicio:ServicioDePruebaService){
+  };
+  onclick(){
+    this.miservicio.MuestraMensaje()
+  };
+  mensaje(){
+    alert(this.miservicio.nombre);
 
-}
+};}

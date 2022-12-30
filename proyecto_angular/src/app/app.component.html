@@ -1,1 +1,16 @@
 <app-header></app-header>
+
+
+
+
+<div>
+    Nombre:
+    <input 
+      placeholder="Ingrese su nombre"  
+      [(ngModel)]="nombr"
+      />
+
+    {{nombr}}
+</div>
+
+<div class="click" (click)="onclick_2(nombr)">Haceme click!</div>
