@@ -5,7 +5,7 @@ import { ServicioDePruebaService } from 'src/app/servicio-de-prueba.service';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
-})
+ })
 export class HeaderComponent {
   constructor(private miservicio:ServicioDePruebaService){
   };
